@@ -1,4 +1,5 @@
-let menu = prompt("¿Cuánto dinero quieres gastar? ");
+let menu = prompt("¿Cuánto dinero quieres gastar en tu helado? (tope 700)");
+
 
 
 menu = parseInt(menu);
@@ -29,4 +30,5 @@ else if (menu >= 700) {
 }else{
     alert("Lo siento, no te alcanza para comprar ningún helado")
 }
+
 
