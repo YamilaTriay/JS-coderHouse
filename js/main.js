@@ -1,3 +1,5 @@
+
+
 do {
     let menu = prompt("¿Cuánto dinero quieres gastar en tu helado? (tope 700)");
     
@@ -30,7 +32,7 @@ do {
             alert("Lo siento, no te alcanza para comprar ningún helado")
         }
         console.log("Usted ingresó: "+ menu)
-        input = prompt('Ingrese otra opción o "ESC" para salir.')
+        input = prompt('Ingrese "ESC" para salir')
     
     } while (menu.key  !== "Escape");
 
