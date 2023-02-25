@@ -32,7 +32,7 @@ do {
             alert("Lo siento, no te alcanza para comprar ningún helado")
         }
         console.log("Usted ingresó: "+ menu)
-        input = prompt('Ingrese "ESC" para salir')
+        input = prompt('Ingrese otra opción o "ESC" para salir.')
     
-    } while (menu.key  !== "Escape");
+    } while (input.key  !== "Escape");
 
